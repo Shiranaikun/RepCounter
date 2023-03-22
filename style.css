@@ -1,0 +1,68 @@
+body {
+    font-family: "Roboto Light", "Calibri Light";
+    text-align: center;
+    color: white;
+    background-image: url(media/bgBNHA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*div {*/
+/*    max-width: 70%;*/
+/*}*/
+
+h1, h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    max-width: 30%;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 240%
+}
+
+p {
+    font-size: 240%;
+    background-color: rgba(0, 0, 0, 0.56);
+    font-weight: bold;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1%;
+    border-radius: 25px;
+}
+
+button {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    margin:0.5em;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff;
+    background-color: #9a2634;
+}
+
+#increment-btn {
+    background-color: #3b9bc0;
+}
+
+#save-btn {
+    background-color: #8bc03b;
+}
+
+.motivation {
+    font-size: 110%;
+}
