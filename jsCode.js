@@ -8,9 +8,14 @@ function increment() {
     countEl.innerText = count
 }
 
+function decrement() {
+    count -= 1
+    countEl.innerText = count
+}
+
 function save() {
-    console.log(count)
-    alert(count)
+    // console.log(count)
+    // alert(count)
 
     let history =  count + " - "
     saveEl.textContent += history
